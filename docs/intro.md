@@ -18,6 +18,8 @@ This project was started by a senior with a true passion for FIRST robotics, and
 
 We differ from GM0 in that this is often an opinionated document. I am sharing what has worked and what has not worked for me. Obviously take what is in here with a mild grain of salt. Most of the content in here is from a great deal of testing, but your mileage may vary. For example, I will say GoBilda's 5202 series motors are the best motors for FTC. This is not an educated opinion, but many teams like to use Andymark's NeveRest motors and see great success.
 
+GM0 is written in such a way for everyone to use it, from beginners to extremely advanced teams, and focuses on creating the best possible robot to win the tournaments. FTC50 is more targeted at beginner teams and focuses on the basics of FIRST robotics, how to create and lead a team, how to inspire your teammates, and how to get yourself on the best practices. On the short term, this guide will feel as though it is slowing you down, but as you move through the season, you will see how doing things properly have saved tons of time and frustration.
+
 ## Why should I trust you?
 
 (I do not mean to be arrogant or bragging in this section, merely establishing credibility.)
@@ -41,3 +43,37 @@ I then started my current team, 14365 the Summit Knights, and over the 4 years u
 - Innovate Award
 - Compass Award
 - Ohio Showcase Team
+
+## Can I get involved?
+
+Yes! Please do! Each page has an 'edit this page' button at the bottom that will lead you to the location of the page on GitHub. FTC50 is built with Docusaurus, so if you have experience with React or Markdown, you will be right at home!
+
+If you have ideas for pages, submit an issue on [GitHub](https://github.com/jackcrane/ftc50) and someone in the community may take it on! If you decide to take on a project, comment that you are working on it so others know you are working on it.
+
+### Getting started
+
+To get started with contributions to the docs, follow these steps:
+
+#### Clone the repository
+
+```bash
+git clone https://github.com/jackcrane/ftc50.git && cd ftc50
+```
+
+#### Install dependencies
+
+```bash
+npm install
+```
+
+#### Start up a development server
+
+```
+npm start
+```
+
+Once the server has started, visit http://localhost:3000. The first time you hit the page, loading will take a while as Docusaurus builds the frontend and backend. This is only an issue with the local development server.
+
+#### Submit your work
+
+Once you have finished your work, you can submit a pull request to the repository and, if approved, it will be merged and published to the live site.
