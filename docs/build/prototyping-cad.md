@@ -28,4 +28,4 @@ If you are not using a build system and most of your robot will be custom, you w
 
 I suggest using OnShape to create your CAD models. It is a simple-to-use cloud-based CAD platform that is free and easy to learn. It has an incredible amount of features, but does not have a steep learning curve, making it extremely accessable to beginners. Additionally, OnShape has a huge FTC community which makes it even easier to build great models. There is a huge shared library of almost all of the components that are available to you in FTC. (Email [first@ptc.com](mailto:first@ptc.com?subject=FTC%20Robotics%20Parts%20Users%20request&body=Hello%2C%0D%0A%0D%0AI%20am%20requesting%20access%20to%20the%20FTC%20Robotics%20Parts%20library%20in%20FTC%20for%20my%20onshape%20account.%20My%20onshape%20account%20is%20under%20the%20email%20YOU%40EXAMPLE.COM%0D%0A%0D%0AThanks) with the email your OnShape account is under for access)
 
-Check out the [CAD](./cad) section for a getting started guide in OnShape.
+Check out the [CAD](./cad/getting-started) section for a getting started guide in OnShape.

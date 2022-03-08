@@ -74,3 +74,5 @@ Select 2 sides of the rectangle, and set their dimensions to 16mm. OnShape will 
 </video>
 
 Notice how OnShape automatically converts units if I just type their abbreviation into the dimension tool's input box.
+
+You can change the scale of the drawing by scrolling as well.
