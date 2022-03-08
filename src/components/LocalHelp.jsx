@@ -155,6 +155,7 @@ export const LocalHelp = (props) => {
                       ))}
                     </tbody>
                   </table>
+                  <p>This data comes directly from FIRST.</p>
                 </>
               ) : (
                 <></>
