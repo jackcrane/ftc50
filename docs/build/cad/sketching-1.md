@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Sketching
+# Sketching Part 1
 
 The primary way of generating geometry in OnShape is through Sketches. Sketches must be on a plane and are the starting point for extrusions. OhShape gives us 4 parts of default geometry:
 
@@ -76,3 +76,40 @@ Select 2 sides of the rectangle, and set their dimensions to 16mm. OnShape will 
 Notice how OnShape automatically converts units if I just type their abbreviation into the dimension tool's input box.
 
 You can change the scale of the drawing by scrolling as well.
+
+## Generating Constructions
+
+Once you have your basic shape, it is time to turn your rectangle into a construction so we can use it to generate further geometry without having the smape affect the rest of your part.
+
+Select each side of the rectangle and click `q` on your keyboard or the construction button as demonstrated in the video.
+
+<video style={{width: '100%'}} controls muted>
+
+  <source src="/img/onshape/making-constructions.mp4" type="video/mp4" />
+</video>
+
+## Building the shapes
+
+You can use the circle tool to make circles to use for the holes. You can generate a center-point circle with the keybind `c` or the circle button just to the right of the rectangle. Now, draw a circle with the center over each corner of the square.
+
+<video style={{width: '100%'}} controls muted>
+
+  <source src="/img/onshape/drawing-circles.mp4" type="video/mp4" />
+</video>
+
+## Dimensioning and equalizing the circles
+
+Remember how we generate dimensions. Now we want to set up the diameter of the circles to be 4mm (refer to the top sketch on GoBilda's technical drawing, where they have annotated one of the screw holes to be 4mm) (the symbol for diameter is `⌀`).
+
+Set the diameter of _one_ of the circles to be 4mm, then we will use the equality tool to make the diameters of the others always match the first.
+
+We will set the diameter manually, then activate the equality tool, and select one of the undimensioned circles, then select the manually dimensioned circle (in that order). Repeat this for each remaining undimensioned circle.
+
+<video style={{width: '100%'}} controls muted>
+
+  <source src="/img/onshape/dimensioning-circles.mp4" type="video/mp4" />
+</video>
+
+## Finishing the sketch
+
+Now that you have 4 circles that are the right size and in the right locations, we are ready to finish the sketch! In the little dialogue box that popped up when you created the sketch, click the green check box.
