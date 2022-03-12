@@ -113,3 +113,7 @@ We will set the diameter manually, then activate the equality tool, and select o
 ## Finishing the sketch
 
 Now that you have 4 circles that are the right size and in the right locations, we are ready to finish the sketch! In the little dialogue box that popped up when you created the sketch, click the green check box.
+
+## Going back to our 3d view
+
+Under the 3d manipulator, there is a small cube with a dropdown next to it. Click the dropdown, and select "Isometric". This will bring you back into the 3d view, recentering everything. The keyboard shortcut for this is `shift` + `7` (the 7 on the top of your keyboard, not in a numpad)

@@ -21,7 +21,7 @@ Fillets are extremely common and are a great way to add structural rigidity with
 
 We are going to add an 8mm fillet to the sharp inner corners of our part, where the cylinder that holds the hex shaft meets the box that mounts to the GoBilda pattern.
 
-Select the fillet tool in the toolbar (right next to the thicken button), then select the lines that define the sharp edges. In the 'radius' input, enter 8mm and let OnShape calcuate the corner. Finally once your done, click the green check box to save your work.
+Select the fillet tool in the toolbar (right next to the thicken button), then select the lines that define the sharp edges (**make sure you select an edge, not a face**). In the 'radius' input, enter 8mm and let OnShape calcuate the corner. Finally once your done, click the green check box to save your work.
 
 <video style={{width: '100%'}} controls muted>
 

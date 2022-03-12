@@ -10,7 +10,7 @@ So we have our super advanced mounting block (its a rectangle i know), but let's
 
 We already have our rectangle, and we need to be able to connect our shaft to it, so we are going to create a new shaft that is reliant on the existing geometry.
 
-Start by creating a sketch in the same way you have before, but instead of selecting the 'top' plane as the sketch plane, select one of the planes on the rectangle. Because everything we have done is a square, it really doesnt matter which of the side planes we select, but because I imposed the arbitrary constraint that I want the shaft to be in the direction of the `X` axis, I will select one of the planes on the `YZ` plane.
+Start by creating a sketch in the same way you have before, but instead of selecting the 'top' plane as the sketch plane, select one of the side planes on the rectangle. Because everything we have done is a square, it really doesnt matter which of the side planes we select, but because I imposed the arbitrary constraint that I want the shaft to be in the direction of the `X` axis, I will select one of the planes on the `YZ` plane.
 
 Finally, right-click the 3d manipulator (the 3d cube in the top right) and select the last option in the dialogue box "View normal to sketch plane".
 
@@ -21,11 +21,13 @@ Finally, right-click the 3d manipulator (the 3d cube in the top right) and selec
 
 ## Drawing the shaft shape
 
-Recall the shaft has an OD of 5mm and is hexagonal in shape, so we are going to draw a 'circumscribed polygon'. This tool is hidden in the down arrow menu next to the polygon tool (a pentagon in the toolbar). If you can't find it use the search box.
+Recall the shaft has an OD (*O*utside *D*iameter) of 5mm and is hexagonal in shape, so we are going to draw a 'circumscribed polygon'. This tool is hidden in the down arrow menu next to the polygon tool (a pentagon in the toolbar). If you can't find it use the search box.
 
 The tool will start by having you select the centerpoint of the polygon, then the number of sides. Fortunately, the tool defaults to a hexagon, so once that menu pops up, you can just click.
 
 We also want it to be centered over the rectangle. OnShape makes this very easy, and you will notice that it will automatically pull your cursor towards the centerpoint.
+
+Once you have the hexagon drawn, we need to set it's OD to 5mm. Using your dimension tool, select the **dashed circle around the hexagon, not any of the actual parts of the hexagon**, and set the dimension to 5mm
 
 <video style={{width: '100%'}} controls muted>
 
@@ -35,6 +37,8 @@ We also want it to be centered over the rectangle. OnShape makes this very easy,
 I also set the hexagon to be 4mm above the top of the box we just extruded. This is an arbitrary measure but seems to put a decent amount space in.
 
 Notice how the yellow dashed lines show how the shape you are drawing is in the same line as something else, in this case, the origin point.
+
+Once you're done, finish the sketch.
 
 ## Drawing the shaft holder
 
