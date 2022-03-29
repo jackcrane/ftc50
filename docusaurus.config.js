@@ -37,6 +37,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: "IKFX9OLTGX",
+        apiKey: "8801987b6b2491e24d600ba62c908562",
+        indexName: "ftc50-jackcrane",
+        contextualSearch: true,
+      },
       navbar: {
         title: "FTC50",
         logo: {
